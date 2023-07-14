@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Terms_and_Conditions">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="@color/buttons"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/white"
+            android:id="@+id/btnbacked"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Conditions"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/automotologo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard terms and conditions for AUTOMOTO
+Applicable to all Agreement: "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHOP SERVICES"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Services means all services, including repairs, provided by the Repair Shop Owner to the Customer."
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Any estimate is based on the costs of labour and materials relevant at this date and the Company reserves the right to alter the charges to meet any variations, whether due to increase in wages (controlled by national agreements), materials or increased cost from any other cause outside of the Company reasonable control.
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Should any additional work or materials be found necessary in the course of these repairs or subsequent testing, it will be necessary to make an extra charge. Where this additional work involves a substantial increase in the amount estimated, a supplementary estimate will be submitted for acceptance.
+
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Where the service includes the provision of goods, the Company reserves the right to impose a handling charge on goods returned for credit (which have been correctly supplied to order).
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- The Company shall give the estimated time for the repair of a vehicle and shall make every effort to inform the Customer if this estimated time cannot be met, although the Company can accept no responsibility for delays outside its control.
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Except where the Customer is acting as a Consumer, in so far as liability may be placed upon the Company by the Consumer Rights Act 2015 or any other statutory provision, or in respect of a vehicle subject to a manufacturer's warranty or other written warranty, no warranty is given or implied as to the quality of Goods or Services or their fitness for any particular purpose whether known to the Company or not.
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- The Company's obligations under the contract shall be mitigated or removed if any defect is caused or worsened by any of the following:
+"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRANSACTION / PAYMENT"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Cash payment will be collected by our partner courier. The courier service will release the ordered items to you upon receipt of your payment. In return, a sales invoice will be issued. "
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Transaction will always be cash on delivery"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- On place repair transaction will be collected by the repair shop courier."
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATA PRIVACY"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-SECTION 11 OF THE REPUBLIC ACT 10173 DATA PRIVACY ACT OF 2012 DEFINES PERSONAL DATA AS  INFORMATION RELATING TO AN IDENTIFIABLE INDIVIDUAL. THE STATE'S POLICY IS TO PROTECT THE HUMAN RIGHT TO PRIVACY OF COMMUNICATION WHILE PROMOTING INNOVATION AND GROWTH."
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

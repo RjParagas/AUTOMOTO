@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/added_imgitem"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@color/cards" />
+
+            <TextView
+                android:id="@+id/added_pname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/added_imgitem"
+                android:fontFamily="@font/hind_light"
+                android:text="Item Name"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/added_pname"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/added_imgitem"
+                android:fontFamily="@font/hind_light"
+                android:text="Price: ₱"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/added_pname"
+                android:layout_toRightOf="@+id/added_peso"
+                android:fontFamily="@font/hind_light"
+                android:text="0"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/added_peso"
+                android:layout_toRightOf="@+id/added_imgitem"
+                android:fontFamily="@font/hind_light"
+                android:text="Quantity:"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/added_peso"
+                android:layout_toRightOf="@+id/added_quantity"
+                android:fontFamily="@font/hind_light"
+                android:text="0"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/added_quantity"
+                android:layout_toRightOf="@+id/added_imgitem"
+                android:fontFamily="@font/hind_light"
+                android:text="Total:"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/added_totalp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/added_qty"
+                android:layout_toRightOf="@+id/added_total"
+                android:fontFamily="@font/hind_light"
+                android:text="0"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+          <TextView
+              android:id="@+id/added_cancel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="CANCEL"
+              android:textColor="@color/red"
+              android:fontFamily="@font/allerta"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="5dp"
+              />
+
+            <TextView
+                android:id="@+id/added_proceed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLACE ORDER"
+                android:textColor="@color/Green"
+                android:fontFamily="@font/allerta"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

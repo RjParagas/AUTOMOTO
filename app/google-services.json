@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "556312109347",
+    "firebase_url": "https://automoto-1d064-default-rtdb.firebaseio.com",
+    "project_id": "automoto-1d064",
+    "storage_bucket": "automoto-1d064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556312109347:android:2a7304b05149bf618bac96",
+        "android_client_info": {
+          "package_name": "com.example.automoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556312109347-mhl8vf74sc5ohqbf2gvip0od06k0qr72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+            "current_key": "AIzaSyBR-K1y_I-lbHFQ8-Zb41lGb4gtyeyQDMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556312109347-mhl8vf74sc5ohqbf2gvip0od06k0qr72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556312109347:android:87f92995af1820a08bac96",
+        "android_client_info": {
+          "package_name": "com.example.automototheowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556312109347-mhl8vf74sc5ohqbf2gvip0od06k0qr72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR-K1y_I-lbHFQ8-Zb41lGb4gtyeyQDMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556312109347-mhl8vf74sc5ohqbf2gvip0od06k0qr72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

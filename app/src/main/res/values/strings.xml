@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AUTOMOTO</string>
+    <string name="API_KEY">AIzaSyCWWzMI97gGmNCNT8J3o9amY83kEdvtIVg</string>
+    <string name="mapbox_api">pk.eyJ1IjoiamFrdWUwMiIsImEiOiJjbDR0OGZ2cDcwMjYxM2ttOTBjMWRxdWdtIn0.cuPIq8aW03JbXAFby1Z4yw</string>
+    <string name="driving_profile">%1$sm\nby car</string>
+    <string name="walking_profile">%1$sm\non foot</string>
+    <string name="cycling_profile">%1$sm\nby bike</string>
+    <string name="instruction">Click on map or buttons to change route</string>
+
+
+    <string-array name="booking_types">
+        <item>Change Frame</item>
+        <item>Change Oil</item>
+        <item>Engine Repair</item>
+        <item>Full Repair (All in One)</item>
+        <item>Tire repair</item>
+        <item>Vulcanizing</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

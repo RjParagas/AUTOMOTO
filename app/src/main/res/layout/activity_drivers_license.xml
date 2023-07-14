@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Drivers_license">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload your Driver's License"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/orienta"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/cards"
+            />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/image_placeholder"
+            android:id="@+id/drivers_lics"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reminder: This process of uploading is to verify that you are real user and customer in this application."
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/cards"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Upload"
+        android:layout_marginTop="60dp"
+        android:id="@+id/uploads"
+        />
+</LinearLayout>

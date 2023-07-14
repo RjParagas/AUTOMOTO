@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/shop"
+        android:iconTint="@color/white"
+        android:title="E-Market" />
+
+    <item
+        android:id="@+id/booking"
+        android:icon="@drawable/booking"
+        android:title="Booking" />
+
+</menu>

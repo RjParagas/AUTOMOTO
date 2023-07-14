@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_shops"
+                android:layout_width="59dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/iconshop" />
+
+            <TextView
+                android:id="@+id/shop_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/hind_light"
+                android:maxLines="1"
+                android:text="Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/buttons"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/address_shops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="87dp"
+                android:layout_marginLeft="87dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/hind_light"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+
+            <RatingBar
+                android:id="@+id/booking_ratestar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/Green"
+                android:isIndicator="true"
+                android:scaleX="0.4"
+                android:scaleY="0.4"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

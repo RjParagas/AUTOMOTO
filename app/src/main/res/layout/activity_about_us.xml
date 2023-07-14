@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="@color/buttons"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/white"
+            android:id="@+id/btnbacked"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quantum_yellow"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            app:cardCornerRadius="25dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@drawable/automotologo"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="is a dynamic mobile application that dedicated for all motorcycle riders and motorcycle repair shop which will be the life saver of the day. the application has own geolocation which can help the riders to find the nearest repair shop. the riders can create a complaint request on the system based on the selected repair shop and it will receive by the shop owner. the system mobile application has a feature that the riders can buy some stuffed for their motorcycle which is provided by different Motorcycle Shop. for some feature, the riders and shop owners can make a interaction using the chat inside of the system."
+                        android:textAlignment="center"
+                        android:textSize="15dp"
+                        android:textColor="@color/quantum_grey600"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:layout_marginTop="25dp"
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email: Mrjbparagas@tip.edu.ph"
+                        android:layout_marginTop="14dp"
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone: 09684420317"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Instagram: @Jakey._.02"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Developers"
+                        android:layout_marginTop="25dp"
+                        android:textAlignment="center"
+                        android:textSize="25dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Back-end Developer &amp; team leader"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/buttons"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Renz Jordan B. Paragas"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Designer &amp; assistant leader"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/buttons"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alysson Kyle V. Castillo"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Front-end &amp; assistant leader"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/buttons"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neil Irvine B. Morales"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Designer &amp; data analyst"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/buttons"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jazelle B. Sarmiento"
+                        android:textSize="14dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/quantum_bluegrey700"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/orienta"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta</item>
+        <item>@font/carter_one</item>
+        <item>@font/droid_sans_mono</item>
+        <item>@font/hind_light</item>
+        <item>@font/orienta</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

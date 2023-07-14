@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="25dp"
+    app:cardCornerRadius="10dp"
+    android:padding="20dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/ic_booking"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/my_atype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="9dp"
+                android:fontFamily="@font/hind_light"
+                android:padding="12dp"
+                android:text="SERVICE TYPE"
+                android:textColor="@color/buttons"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/hind_light"
+                android:text="Date:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/my_adate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="83dp"
+                android:layout_toRightOf="@+id/date_quote"
+                android:fontFamily="@font/hind_light"
+                android:text="Date"
+                android:textColor="@color/buttons"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/status_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/hind_light"
+                android:text="Status:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/my_astatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/date_quote"
+                android:fontFamily="@font/hind_light"
+                android:text="N/A"
+                android:textColor="@color/buttons"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/chat_wshop"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="80dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/message"
+                app:lottie_repeatCount="100" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
